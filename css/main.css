@@ -1,0 +1,217 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: #fecc65 url(../img/reactor_bg_middle.jpg) no-repeat 50% 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 45px;
+    background: #392f1e;
+}
+
+.logo {
+    height: 165px;
+}
+
+.navigation {
+    padding-top: 13px;
+    height: 51px;
+    background: rgba(41, 29, 2, 0.5);
+}
+
+.subNavigation {
+    padding: 8px 0;
+    height: 31px;
+    background: #fdda97;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    position: absolute;
+    top: 321px;
+    left: 0;
+    right: 0;
+}
+
+.content {
+    background: white;
+    padding: 30px;
+}
+
+.postList {
+    width: 800px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.sideBar {
+    display: inline-block;
+    position: absolute;
+}
+
+.sideBar .sideBarMenu {
+    border-top: 2px solid black;
+    padding-top: 25px;
+    width: 330px;
+}
+
+.sideBar .sideBarMenu .barMenu {
+    position: relative;
+}
+
+.sideBar .sideBarMenu .barMenu>img {
+    width: 100%;
+}
+
+.sideBar .sideBarMenu .barMenu .barMenuBlock {
+    margin-top: 30px;
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+.sideBar .sideBarMenu .barMenu .barMenuBlock a {
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    margin-right: 11px;
+}
+
+.sideBar .sideBarMenu .barMenu .barMenuBlock a img {
+    vertical-align: middle;
+}
+
+.sideBar .sideBarMenu .barMenu .barMenuBlock a:hover {
+    color: #cfe16f;
+}
+
+.postList .user {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.postList .userName {
+    color: #512828;
+    font-weight: 900;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.postList .avatar {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    /* display: inline-block; */
+}
+
+.postList .avatar img {
+    height: 100%;
+    width: auto;
+}
+
+.postList .tags span {
+    color: #888a88;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.postList .tags span+span {
+    margin-left: 20px;
+}
+
+.postList .tags {
+    margin: 10px 0;
+}
+
+.postList .postContent {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.postList .postActions {
+    position: relative;
+    width: 1200;
+    vertical-align: middle;
+}
+
+.postList .postActions .comment button {
+    background-color: #fdb201;
+    color: #383828;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 250px;
+}
+
+.postList .postActions .comment button:hover {
+    background-color: rgba(253, 178, 1, 0.6);
+}
+
+.iconArrow {
+    height: 10px;
+    width: 12px;
+    background: url(../img/icon_carrows.png) no-repeat 50% -20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.postList .postActions .date {
+    margin-left: 40px;
+}
+
+.postList .postActions .comment {
+    display: inline-block;
+}
+
+.postList .postActions .useless {
+    color: #586263;
+    font-weight: 800;
+}
+
+.postList .postActions .useless:hover {
+    text-decoration: none;
+}
+
+.postList .postActions .smileWrapper {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 800;
+}
+
+.postList .postActions .smileWrapper .smile {
+    height: 33px;
+    width: 33px;
+    background: url(../img/icon_smiles.png);
+    background-position: 0 -40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.postList .postActions .smileWrapper .smile:hover {
+    background-position: 0 0;
+}
+
+.postList .postActions .smileWrapper .smile.negative {
+    background-position: -40px -40px;
+}
+
+.postList .postActions .smileWrapper .smile.negative:hover {
+    background-position: -40px 0;
+}
